@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online.</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <header>
+         <nav class="navbar">  <!--breaking nav bar into two div -->
+            <div class="navbar_netflix">    <!-- div_1 for Netflix_logo -->
+                <img src="./Netflix_logo.png" alt="Netflix logo" class="Netflix_logo">
+            </div>
+            <div class="navbar_nav_items">    <!-- div_2 for dropdown list and button -->
+                <div class="nav_item">                  <!-- div for dropdown -->
+                    <div class="dropdown_container">    <!-- creates border for dropdown -->
+                        <select  name="language" id="language_Select" class="language_drop_down">
+                            <option value="english" selected>English</option>
+                            <option value="hindi">Hindi</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="nav_item">
+                    <button class="signin_button">Sign In</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="bgimgmain">
+            <div class="bgimgmain_container">
+                <img src="./netflixbg.jpg" alt="Netflix background" class="bgimg">
+            </div>
+            <div class="bgimg_overlay"></div>
+            <div class="bgimg_title">
+                <h1 class="bg_title">The biggest Indian hits. The best Indian <br> stories. All streaming here.</h1>
+                <h2 class="bg_subtitle">Watch anywhere. Cancel anytime.</h2>
+                <p class="bg_para"><nobr>Ready to watch? Enter your email to create or restart your membership.</nobr></p>
+                <!-- <nobr></nobr>:  prevents line break while zooming in -->
+                
+                <nobr>
+                    <input type="Email" placeholder="Email Address" class="email" required>
+                    <button class="getstarted">Get Started ></button>
+                </nobr>
+            </div>
+            
+        </section>
+        <section class="style_divs">
+            <div class="style1">
+                <div class="style_text1" class="h">
+                    <h1><nobr>Enjoy on your TV</nobr></h1>
+                    <h3>Watch on smart TVs, PlayStation, Xbox,<br> Chromecast, Apple TV, Blu-ray players and<br> more.</h3>
+                </div>
+                <img src="./tv.png" alt="TV" class="img_1">
+                <video autoplay="" playsinline="" muted="" loop="" class="vdo_1"><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4"></video>
+                <!-- <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4">Netflix_video</video> -->
+            </div>
+            <div class="style2">
+                <img src="./m2.jpg" alt="TV" class="img_2">
+                <div class="style_text2" class="h">
+                    <h1>Download your<br>shows to watch<br>offline</h1>
+                    <h3>Save your favourites easily and always have <br>something to watch.</h3>
+                </div>
+                
+                <!-- <div data-uia="nmhp-card-animation-asset-motion" class="vdo_2"><div class="default-ltr-cache-1cn8kex"><img data-uia="nmhp-card-animation-asset-animation" alt="" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" class="default-ltr-cache-1t1z3a4"></div><div class="default-ltr-cache-tcf860"><div id="" class="default-ltr-cache-162uqtg e15c37ii4" data-uia="">Stranger Things</div><div id="" class="default-ltr-cache-44ib4m e15c37ii3" data-uia="">Downloading...</div></div><div data-uia="nmhp-card-animation-asset-custom" aria-hidden="true" class="default-ltr-cache-1q4up1i e15c37ii5"></div></div>     -->
+            </div>
+            <div class="style3">
+                <div class="style_text3" class="h">
+                    <h1><nobr>Watch everywhere</nobr></h1>
+                    <h3><nobr>Stream unlimited movies and TV shows on<br>your phone, tablet, laptop, and TV.</nobr></h3>
+                </div>
+                <img src="./m3.png" alt="TV" class="img_3">
+                <video autoplay="" playsinline="" muted="" loop="" class="vdo_3"><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" type="video/mp4"></video>
+            </div>
+            <div class="style4">
+                <img src="./m4.png" alt="TV" class="img_4">
+                <div class="style_text4" class="h">
+                    <h1><nobr>Create profiles for<br> kids</h1></nobr></h1>
+                    <h3><nobr>Send children on adventures with their<br>favourite characters in a space made just<br>for them—free with your membership.</nobr></h3>
+                </div>
+                
+            </div>
+            <div class="style5">
+                <h1><nobr>Frequently Asked Questions</nobr></h1>
+                <div class="faq_container">
+                    <div class="cont"><p class="faq_para">What is Netflix?</p> <svg class="symbol" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" class="elj7tfr3 e164gv2o4 default-ltr-cache-l7vm9h e1svuwfo1" data-name="Plus" alt=""><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z" fill="currentColor"></path></svg></div>
+                    <div class="cont"><p class="faq_para">How much does Netflix cost?</p> <svg class="symbol" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" class="elj7tfr3 e164gv2o4 default-ltr-cache-l7vm9h e1svuwfo1" data-name="Plus" alt=""><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z" fill="currentColor"></path></svg></div>
+                    <div class="cont"><p class="faq_para">Where can I watch?</p> <svg class="symbol" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" class="elj7tfr3 e164gv2o4 default-ltr-cache-l7vm9h e1svuwfo1" data-name="Plus" alt=""><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z" fill="currentColor"></path></svg></div>
+                    <div class="cont"><p class="faq_para">How do I cancel?</p> <svg class="symbol" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" class="elj7tfr3 e164gv2o4 default-ltr-cache-l7vm9h e1svuwfo1" data-name="Plus" alt=""><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z" fill="currentColor"></path></svg></div>
+                    <div class="cont"><p class="faq_para">What can I watch on Netflix?</p> <svg class="symbol" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" class="elj7tfr3 e164gv2o4 default-ltr-cache-l7vm9h e1svuwfo1" data-name="Plus" alt=""><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z" fill="currentColor"></path></svg></div>
+                    <div class="cont"><p class="faq_para">Is Netflix good for kids?</p> <svg class="symbol" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" class="elj7tfr3 e164gv2o4 default-ltr-cache-l7vm9h e1svuwfo1" data-name="Plus" alt=""><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z" fill="currentColor"></path></svg></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Questions? Call 000-800-919-1694</p>
+        <div class="footer_list">
+            <ul>
+                <li><a href="https://help.netflix.com/en/node/412" style="color: white;">FAQ</a></li>
+                <li><a href="https://ir.netflix.net/ir-overview/profile/default.aspx" style="color: white;">Investor Relation</a></li>
+                <li><a href="https://help.netflix.com/legal/privacy" style="color: white;">Privacy</a></li>
+                <li><a href="https://fast.com/" style="color: white;">Speed Test</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://help.netflix.com/en/" style="color: white;">Help Centre</a></li>
+                <li><a href="https://jobs.netflix.com/" style="color: white;">Jobs</a></li>
+                <li><a href="https://www.netflix.com/in/" style="color: white;">Cookie Preferences</a></li>
+                <li><a href="https://help.netflix.com/legal/notices" style="color: white;">Legal Notices</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://www.netflix.com/in/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount" style="color: white;">Accounts</a></li>
+                <li><a href="https://devices.netflix.com/en/" style="color: white;">Ways to Watch</a></li>
+                <li><a href="https://help.netflix.com/legal/corpinfo" style="color: white;">Corporate Information</a></li>
+                <li><a href="https://www.netflix.com/in/browse/genre/839338" style="color: white;">Only on Netflix</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://media.netflix.com/en/" style="color: white;">Media Centre</a></li>
+                <li><a href="https://help.netflix.com/legal/termsofuse" style="color: white;">Terms of Use</a></li>
+                <li><a href="https://help.netflix.com/en/contactus" style="color: white;">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <br>
+        <div class="dropdown_container_footer">    <!-- creates border for dropdown -->
+            <select  name="language" id="language_Select" class="language_drop_down_footer">
+                <option value="english_footer" selected>English</option>
+                <option value="hindi_footer">Hindi</option>
+            </select>
+        </div>
+        <br>
+        <p style="font-size: 0.8rem;">Netflix India</p>
+    </footer>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Montserrat&family=Noto+Sans:wght@900&family=Poppins:wght@100;200;300;600&family=Roboto&display=swap" rel="stylesheet">
+</body>
+</html>
+

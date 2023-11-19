@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+   
+}
+
+.navbar{
+    position: absolute;
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.navbar_netflix{
+    height: 100%;
+    width: 125px;
+}
+
+.Netflix_logo{
+
+    height: 148px;
+    width: 148px;
+    object-fit:contain;
+    margin-left: 153px;
+    margin-top: -30px;
+} 
+
+.navbar_nav_items{
+    display:flex;
+    gap:20px;
+    padding-top: 2.2%;
+    /* 3% 5%; */
+    padding-left:5% ;
+    padding-right:4% ;
+    padding-bottom:3% ;
+    margin-right: 100px;
+
+}
+
+.language_drop_down{
+    background-color: transparent;
+    border: none;
+    /* border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px; */
+    color: white;
+    
+}
+
+.dropdown_container{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.5rem; 
+    background: rgba(0,0,0, 0.4);   /* a: alpha; adjusts transparency */
+    height: 35px;
+    width: 100%; 
+    width:110px;
+    text-align: center;
+    
+}
+
+.signin_button{
+    background-color: #e50914;
+    border: 1px solid #e50914;
+    color: white;
+    padding: 0.4rem;
+    margin: 0;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    font-weight: 600;
+}
+
+.signin_button:hover{
+    cursor: pointer;
+    background-color: #e50914c9;
+    transition: 0.7s;
+}
+
+.bgimgmain_container{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bgimg{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    overflow: hidden; 
+
+}
+
+.bgimg_overlay{
+
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0, 0.65);   /* a: alpha; adjusts transparency */
+    inset: 0;  /*overlays this div above img div*/
+}
+
+.bgimg_title{
+    position: absolute;
+    top: 34%;
+    left:14%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+.bg_title{
+    font-weight: 900;
+    font-size: 2.8rem;
+    
+}
+
+.bg_subtitle, .bg_para{
+    font-weight: 400;
+    font-size: 1.34rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.email{
+    border: 1px solid white;
+    background-color:  rgba(0,0,0, 0.4);
+    /* padding:0.5rem;  */
+    width: 390px;
+    height: 60px;
+    padding: 1.5rem 1rem 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.getstarted{
+    font-size: 1.4rem;
+    font-weight: 600;
+    background-color: #e50914;
+    border: #e50914;
+    border-radius: 5px;
+    color: white;
+    /* padding:0.3rem; */
+    padding: 1.5rem 1rem 0.5rem; 
+    height:60px;
+    width: 240px;
+
+}
+
+.getstarted:hover{
+    cursor: pointer;
+    background-color: #e50914c9;
+    transition: 0.7s;
+    font-style: inherit;
+}
+
+.style1, .style2, .style3, .style4, .style5{
+    border-top: 7px solid #232323;
+    padding:50px;
+}
+
+.style1{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    align-items: center;
+    text-align: left;
+    padding: 25px 45px;
+}
+
+.style_text1{
+    padding: 80px;
+    width: 100%;
+}
+
+.vdo_1{
+    position: relative;
+    height: 54%;
+    width: 100%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+
+.img_1{
+    height: 100%;
+    width: 100%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+.style_divs h1{
+    padding: 1rem;
+    font-size: 3rem;
+    padding-left: 0;
+    font-size: 3rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 800;
+}
+
+.style_divs h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.style2{
+    padding:2rem;
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%; 
+    /* align-items: center; */
+    text-align: left;
+    align-items: center;
+    font-size: ;
+}
+
+.img_2{
+    height: 100%;
+    width: 100%;
+}
+
+.style3{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    align-items: center;
+    text-align: left;
+    padding: 75px 45px;
+    justify-content: center;
+}
+
+.vdo_3{
+    position: relative;
+    top:-70px;
+    left: 80px;
+    height: 50%;
+    width: 65%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+
+.img_3{
+    height: 100%;
+    width: 100%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    
+}
+
+.style_text3{
+    padding-left: 30px;
+    width: 100%;
+    /* padding-right: 20px; */
+}
+
+.style4{
+    padding:7rem;
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%; 
+    /* align-items: center; */
+    text-align: left;
+    align-items: center;
+    
+}
+
+.img_4{
+    height: 100%;
+    width: 100%;
+}
+
+.style5{
+    position: relative;
+   
+    align-items: center;
+    text-align: center;
+    /* padding: 75px 45px; */
+    justify-content: center;
+}
+
+.faq_container{
+   
+    display: grid;
+    grid-template-rows:auto;
+    gap: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    /* line-height: 40px; */
+    margin: 0 90px;
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: 1fr auto; /* Adjust the width of the symbol column as needed */
+    
+    background-color: #2f2e2e;
+    line-height: 50px;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+.cont:hover{
+    background-color:#484747;
+    transition: 0.7s;
+    cursor: pointer;
+
+    
+}
+
+.faq_para{
+    text-align: left;
+}
+/* 
+.symbol{
+   justify-content: right;
+    
+} */
+
+
+.symbol {
+    justify-self: end; /* Align the symbol to the right of its grid cell */
+}
+
+footer{
+    border-top: 7px solid #232323;
+    color: white;
+    /* font-size: 0.9rem; */
+    font-family: 'Poppins',sans-serif;
+    padding: 4rem 6rem;
+}
+
+footer>p{
+    margin-bottom: 1.3rem;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.footer_list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:2rem;
+    font-size: 0.8rem;
+    
+}
+
+.footer_list li{
+    line-height: 2.5rem;
+    list-style: none;
+    margin: 0 40px;
+}
+
+.language_drop_down_footer{
+    background-color: transparent;
+    border: none;
+    /* border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px; */
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.5rem; 
+    background: rgba(0,0,0, 0.4);   /* a: alpha; adjusts transparency */
+    margin: 0 40px;
+    width:110px;
+}
